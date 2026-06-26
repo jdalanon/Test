@@ -247,16 +247,16 @@ header .navbar {
 .menu-section .menu-list .menu-item .text {
   font-size: var(--font-size-m);
 }
-/* Testimonials section styling */
-.testimonials-section {
+/* Customer Feedbacks section styling */
+.feedback-section {
   padding: 50px 0 100px;
   background: var(--light-pink-color);
 }
-.testimonials-section .slider-wrapper {
+.feedback-section .slider-wrapper {
   overflow: hidden;
   margin: 0 60px 50px;
 }
-.testimonials-section .testimonial {
+.feedback-section .feedback-list {
   user-select: none;
   padding: 35px;
   display: flex;
@@ -265,32 +265,32 @@ header .navbar {
   align-items: center;
   text-align: center;
 }
-.testimonials-section .testimonial .user-image {
+.feedback-section .feedback-list .user-image {
   width: 180px;
   height: 180px;
   margin-bottom: 50px;
   object-fit: cover;
   border-radius: var(--border-radius-circle);
 }
-.testimonials-section .testimonial .name {
+.feedback-section .feedback-list .name {
   margin-bottom: 16px;
   font-size: var(--font-size-m);
 }
-.testimonials-section .testimonial .feedback {
+.feedback-section .feedback-list .feedback {
   line-height: 25px;
 }
-.testimonials-section .swiper-pagination-bullet {
+.feedback-section .swiper-pagination-bullet {
   width: 15px;
   height: 15px;
   opacity: 1;
   background: var(--secondary-color);
 }
-.testimonials-section .swiper-slide-button {
+.feedback-section .swiper-slide-button {
   color: var(--secondary-color);
   margin-top: -50px;
   transition: 0.3s ease;
 }
-.testimonials-section .swiper-slide-button:hover {
+.feedback-section .swiper-slide-button:hover {
   color: var(--primary-color);
 }
 /* Gallery section styling */
@@ -530,10 +530,10 @@ header .navbar {
   .menu-section .menu-list {
     gap: 60px;
   }
-  .testimonials-section .slider-wrapper {
+  .feedback-section .slider-wrapper {
     margin: 0 0 30px;
   }
-  .testimonials-section .swiper-slide-button {
+  .feedback-section .swiper-slide-button {
     display: none;
   }
   .footer-section .section-content {
